@@ -62,7 +62,7 @@ Overall, the best performing model to solve the classification model is our firs
 
 A different approach to solving this classification problem can be taken by using a random forest model. Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision. Because they only handle tabular data, such as this dataset, they are more efficient than deep learning models which require more code, and therefore random forest classifiers are faster. Random forest models are also more robust against overfitting. After testing the random forest model, I calculated the accuracy value to be approximately 0.725. This value is virtually the same as our first optimization model, which produced the highest accuracy value of the three optimization models tested in Deliverable 3.
 
-<img src="images/random_forest.png" alt="Alt text" title="Optional title"width="650" height="350"/>
+<img src="images/random_forest.png" alt="Alt text" title="Optional title" width="660" height="260"/>
 
 
 Nonetheless, random forest uses less code which saves resources and time and is therefore my utmost recommendation to solving the classification model for this analysis in determining whether applicants will be successful if funded by Alphabet Soup.
